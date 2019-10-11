@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
     return ScopedModel(
         model: TimerModel(),
         child: MaterialApp(
-          title: 'Pomodoro Timer',
+          title: 'Productivity Timer',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             primarySwatch: Colors.red,
           ),
-          home: MyHomePage(title: 'Pomodoro Timer'),
+          home: MyHomePage(title: 'Productivity Timer'),
         ));
   }
 }
